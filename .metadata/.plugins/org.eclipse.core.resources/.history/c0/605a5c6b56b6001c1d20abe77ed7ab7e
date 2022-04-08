@@ -1,0 +1,9 @@
+package com.bvr.services;
+
+public class MovieInfo {
+
+	public MovieInfo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

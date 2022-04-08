@@ -1,0 +1,9 @@
+package com.bvr.config;
+
+public class ServerProperties {
+
+	public ServerProperties() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

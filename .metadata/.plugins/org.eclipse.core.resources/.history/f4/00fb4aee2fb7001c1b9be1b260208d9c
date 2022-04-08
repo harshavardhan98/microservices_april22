@@ -1,0 +1,38 @@
+@EnableWebSecurity
+class WebSecurityConfig extends WebSecurityConfigurerAdapter {
+	@Autowired
+	private UserDetailsService myUserDetailsService;
+	@Autowired
+	private JwtRequestFilter jwtRequestFilter;
+
+	@Autowired
+	public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
+		auth.userDetailsService(myUserDetailsService);
+	}
+
+	@Bean
+	public PasswordEncoder passwordEncoder() {
+		return NoOpPasswordEncoder.getInstance();
+	}
+
+	@Override
+	@Bean
+	public AuthenticationManager authenticationManagerBean() throws Exception {
+		return super.authenticationManagerBean();
+	}
+
+	@Override
+	protected void configure(HttpSecurity httpSecurity) throws Exception {
+		httpSecurity.csrf().disable()
+				.authorizeRequests().antMatchers("/authenticate").permitAll().
+						anyRequest().authenticated().and().
+						exceptionHandling().and().sessionManagement()
+				.sessionCreationPolicy(SessionCreationPolicy.STATELESS);
+		httpSecurity.addFilterBefore(jwtRequestFilter, UsernamePasswordAuthenticationFilter.class);
+
+	}
+
+}
+
+
+

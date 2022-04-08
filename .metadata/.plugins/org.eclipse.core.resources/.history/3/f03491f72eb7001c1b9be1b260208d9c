@@ -1,0 +1,20 @@
+package com.bvr;
+
+import org.springframework.security.core.userdetails.User;
+import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+public class MyUserDetailsService implements UserDetailsService {
+
+	public MyUserDetailsService() {
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {
+		// TODO Auto-generated method stub
+		return new User("foo", "foo", new ArrayList<>());
+	}
+
+}

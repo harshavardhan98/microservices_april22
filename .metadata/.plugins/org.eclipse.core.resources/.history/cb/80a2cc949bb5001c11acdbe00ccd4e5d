@@ -1,0 +1,9 @@
+package com.bvr.models;
+
+public class MovieSummary {
+
+	public MovieSummary() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

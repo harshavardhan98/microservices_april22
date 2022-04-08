@@ -1,0 +1,9 @@
+package com.bvr.resources;
+
+public class RatingsResource {
+
+	public RatingsResource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

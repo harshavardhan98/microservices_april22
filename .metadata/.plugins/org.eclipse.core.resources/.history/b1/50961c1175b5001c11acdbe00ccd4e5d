@@ -1,0 +1,7 @@
+package com.bvr.repository;
+
+import org.springframework.data.repository.*;
+
+public interface CarMongoRepository extends CrudRepository<Car, String>{
+
+}

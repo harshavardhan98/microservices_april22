@@ -1,0 +1,9 @@
+package com.bvr;
+
+public class AdmissionsResource {
+
+	public AdmissionsResource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

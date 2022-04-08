@@ -1,0 +1,21 @@
+package com.bvr;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.jms.annotation.EnableJms;
+
+@SpringBootApplication
+@EnableJms
+public class MessagingServiceApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(MessagingServiceApplication.class, args);
+	}
+	
+	
+	@Bean
+	public Queue queue() {
+		return new ActiveMQQueue("sample.queue");
+	}
+
+}

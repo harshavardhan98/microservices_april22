@@ -1,0 +1,9 @@
+package com.bvr.models;
+
+public class CatalogItem {
+
+	public CatalogItem() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

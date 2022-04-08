@@ -1,0 +1,9 @@
+package com.bvr.bean;
+
+public class PropertyAccessBean {
+
+	public PropertyAccessBean() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

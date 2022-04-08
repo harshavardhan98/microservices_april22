@@ -1,0 +1,26 @@
+package com.bvr.resources;
+
+import org.springframework.web.client.RestTemplate;
+
+import com.bvr.models.MovieSummary;
+
+@RestController
+@RequestMapping("/movies")
+public class MovieResource {
+
+	public MovieResource() {
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+	@Autowired
+	private RestTemplate restTemplate;
+	
+	
+	@RequestMapping("/{movieId}")
+	public Movie getMovieInfo(@PathVariable("movieId") String movieId) {
+		MovieSummary movieSummary = restTemplate.getForObject("", MovieSummary.class);
+		return new Movie(movieId, movieSummary.getTitle(), movieSummary.getOverview());
+	}
+
+}

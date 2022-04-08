@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;admissions-service/src/main/java/com.bvr&apos;&#x0A;- Original project: &apos;hr-service&apos;&#x0A;- Destination element: &apos;admissions-service/src/main/java/com.bvr&apos;&#x0A;- Original elements:&#x0A;     com.bvr.Employee.java&#x0A;     com.bvr.EmployeeList.java" description="Copy compilation units" destination="=admissions-service/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bvr" element1="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bvr{Employee.java" element2="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bvr{EmployeeList.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1649141994350" units="2" version="1.0"/>
+</session>

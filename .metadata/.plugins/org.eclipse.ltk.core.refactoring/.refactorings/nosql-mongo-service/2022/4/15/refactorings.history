@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;com.bvr.resources&apos; to &apos;com.bvr.model&apos;&#x0A;- Original project: &apos;nosql-mongo-service&apos;&#x0A;- Original element: &apos;nosql-mongo-service/src/main/java/com.bvr.resources&apos;&#x0A;- Renamed element: &apos;nosql-mongo-service/src/main/java/com.bvr.model&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;com.bvr.resources&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.bvr.resources" name="com.bvr.model" qualified="false" references="true" stamp="1649227074628" textual="false" version="1.0"/>
+</session>

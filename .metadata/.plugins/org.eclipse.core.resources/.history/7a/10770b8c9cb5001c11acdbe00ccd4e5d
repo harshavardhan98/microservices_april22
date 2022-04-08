@@ -1,0 +1,9 @@
+package com.bvr.resources;
+
+public class MovieResource {
+
+	public MovieResource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

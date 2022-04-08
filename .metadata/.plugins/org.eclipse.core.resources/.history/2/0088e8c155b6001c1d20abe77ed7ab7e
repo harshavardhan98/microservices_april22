@@ -1,0 +1,9 @@
+package com.bvr.services;
+
+public class UserRatingInfo {
+
+	public UserRatingInfo() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

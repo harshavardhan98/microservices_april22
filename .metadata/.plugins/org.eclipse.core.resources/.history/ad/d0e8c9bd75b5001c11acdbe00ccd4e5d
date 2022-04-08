@@ -1,0 +1,9 @@
+package com.bvr.repository;
+
+public class CarSearchRepository {
+
+	public CarSearchRepository() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

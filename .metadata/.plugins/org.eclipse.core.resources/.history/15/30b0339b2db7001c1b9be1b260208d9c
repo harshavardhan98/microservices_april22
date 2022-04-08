@@ -1,0 +1,11 @@
+package com.bvr.models;
+
+import java.io.Serializable;
+
+public class AuthenticationRequest implements Serializable {
+
+	public AuthenticationRequest() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

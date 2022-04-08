@@ -1,0 +1,9 @@
+package com.bvr;
+
+public class PathologyResource {
+
+	public PathologyResource() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

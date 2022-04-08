@@ -1,0 +1,20 @@
+package com.bvr;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class ExampleProperties {
+
+	private String greeting ="Thank You";
+
+	public String getGreeting() {
+		return greeting;
+	}
+
+	public void setGreeting(String greeting) {
+		this.greeting = greeting;
+	}
+	
+	
+	
+}
